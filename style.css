@@ -7,7 +7,7 @@ header{
 }
 
 .logo{
-    width: 120px;
+    width: 150px;
     
 }
 
@@ -55,38 +55,40 @@ header{
 
 
 
-
-a{
+section{
    display: flex;
    justify-content: space-between;
-
    
-
-
+ 
 }
 
+.video {
+    display: flex;
+  height: 300px;
+}
 
-.image {
-    flex: 1; /* This makes the images take up equal space within the parent */
-    margin: 0 5px; /* Add margin for spacing between the images */
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 20px;
+    column-gap: 20px;
+
+   
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+
     
-  }
+}
 
-  .video {
-    flex: 5; /* This makes the images take up equal space within the parent */
-
-    width: 500px;
-    height: 300px;
-  }
-  
-  img {
-    max-width: 100%; /* Ensure the images don't exceed the width of their containers */
-    height: auto; /* Maintain aspect ratio */
-  }
   
   
   
-  
+   
   
 
 
